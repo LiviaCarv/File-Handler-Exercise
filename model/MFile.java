@@ -3,6 +3,7 @@ package FileHandlerExercise.model;
 public class MFile {
     private String content;
     private String nameFile;
+    private String path;
     private MFileAnnotationTypeEnum type;
 
     public String getContent() {
@@ -27,5 +28,13 @@ public class MFile {
 
     public void setType(MFileAnnotationTypeEnum type) {
         this.type = type;
+    }
+
+    public String getPath() {
+        return path;
+    }
+
+    public void setPath(String path) {
+        this.path = path;
     }
 }
